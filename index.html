@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MamadzSell | Pulsa & Paket Data</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: '#1E40AF',
+            accent: '#22C55E',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-inter text-gray-800 bg-white">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <h1 class="text-xl font-extrabold text-primary">MamadzSell</h1>
+    <nav class="hidden md:flex gap-8 items-center font-medium">
+      <a href="#home" class="hover:text-primary">Home</a>
+      <a href="#pulsa" class="hover:text-primary">Pulsa</a>
+      <a href="#data" class="hover:text-primary">Paket Data</a>
+      <a href="#promo" class="hover:text-primary">Promo</a>
+      <a href="#kontak" class="bg-accent text-white px-5 py-2 rounded-full shadow">
+        WhatsApp
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-blue-100"></div>
+  <div class="relative max-w-4xl mx-auto px-6 py-32 text-center">
+    <span class="inline-block mb-4 px-4 py-1 text-sm bg-blue-100 text-primary rounded-full">
+      Layanan Digital Terpercaya
+    </span>
+    <h2 class="text-4xl md:text-5xl font-extrabold text-primary mb-6">
+      Pulsa & Paket Data<br/>Cepat dan Terpercaya
+    </h2>
+    <p class="text-gray-600 text-lg mb-10">
+      Semua operator • Proses instan • Harga bersahabat
+    </p>
+
+    <a href="https://wa.me/628xxxxxxxxx"
+       class="inline-flex items-center gap-3 bg-accent text-white px-8 py-4 rounded-full font-semibold shadow-lg hover:scale-105 transition">
+      <!-- SVG WhatsApp -->
+   <svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 32 32"
+     fill="currentColor"
+     class="w-5 h-5">
+  <path d="M19.11 17.2c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.18-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.41.12-.55.13-.13.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.93 2.95 4.68 4.13.65.28 1.15.45 1.54.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.27.23-.61.23-1.14.16-1.27-.07-.13-.25-.2-.52-.34z"/>
+  <path d="M16.04 2.67c-7.39 0-13.4 6.01-13.4 13.4 0 2.36.61 4.66 1.78 6.69l-1.9 6.94 7.12-1.87c1.96 1.07 4.17 1.64 6.4 1.64 7.39 0 13.4-6.01 13.4-13.4s-6.01-13.4-13.4-13.4zm0 24.38c-2.02 0-3.99-.54-5.72-1.57l-.41-.24-4.22 1.11 1.13-4.11-.27-.42c-1.06-1.71-1.62-3.69-1.62-5.74 0-5.96 4.85-10.81 10.81-10.81 5.96 0 10.81 4.85 10.81 10.81 0 5.96-4.85 10.81-10.81 10.81z"/>
+</svg>
+
+      Order Sekarang
+    </a>
+  </div>
+</section>
+
+<section id="pulsa" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-primary mb-3">Pulsa All Operator</h3>
+    <p class="text-gray-500 mb-10">Tersedia nominal lengkap, proses cepat.</p>
+
+    <div class="flex gap-6 overflow-x-auto pb-4">
+      <!-- CARD 1 -->
+      <div class="min-w-[260px] rounded-2xl p-6 bg-gradient-to-br from-white to-blue-50 shadow hover:-translate-y-1 transition">
+        <span class="text-xs bg-blue-100 text-primary px-3 py-1 rounded-full">Best Seller</span>
+        <h4 class="mt-4 text-lg font-semibold">Pulsa 10K</h4>
+        <p class="text-sm text-gray-500 mb-4">Semua Operator</p>
+        <div class="text-xl font-bold text-primary">Rp11.000</div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="min-w-[260px] rounded-2xl p-6 bg-white shadow hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">Pulsa 20K</h4>
+        <p class="text-sm text-gray-500 mb-4">Semua Operator</p>
+        <div class="text-xl font-bold text-primary">Rp21.000</div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="min-w-[260px] rounded-2xl p-6 bg-white shadow hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">Pulsa 25K</h4>
+        <p class="text-sm text-gray-500 mb-4">Semua Operator</p>
+        <div class="text-xl font-bold text-primary">Rp26.000</div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="min-w-[260px] rounded-2xl p-6 bg-white shadow hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">Pulsa 50K</h4>
+        <p class="text-sm text-gray-500 mb-4">Semua Operator</p>
+        <div class="text-xl font-bold text-primary">Rp51.000</div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="min-w-[260px] rounded-2xl p-6 bg-white shadow hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">Pulsa 75K</h4>
+        <p class="text-sm text-gray-500 mb-4">Semua Operator</p>
+        <div class="text-xl font-bold text-primary">Rp76.000</div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="min-w-[260px] rounded-2xl p-6 bg-white shadow hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">Pulsa 100K</h4>
+        <p class="text-sm text-gray-500 mb-4">Semua Operator</p>
+        <div class="text-xl font-bold text-primary">Rp101.000</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="data" class="py-24 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-primary mb-3">Paket Data Internet</h3>
+    <p class="text-gray-500 mb-10">Kuota besar, masa aktif fleksibel.</p>
+
+    <div class="flex gap-6 overflow-x-auto pb-4">
+      <!-- CARD 1 -->
+      <div class="min-w-[280px] rounded-2xl p-6 bg-white shadow border-t-4 border-green-500 hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">3 GB</h4>
+        <p class="text-sm text-gray-500 mb-4">7 Hari</p>
+        <div class="text-xl font-bold text-primary">Rp15.000</div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="min-w-[280px] rounded-2xl p-6 bg-white shadow border-t-4 border-blue-500 hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">5 GB</h4>
+        <p class="text-sm text-gray-500 mb-4">14 Hari</p>
+        <div class="text-xl font-bold text-primary">Rp25.000</div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="min-w-[280px] rounded-2xl p-6 bg-white shadow border-t-4 border-indigo-500 hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">8 GB</h4>
+        <p class="text-sm text-gray-500 mb-4">30 Hari</p>
+        <div class="text-xl font-bold text-primary">Rp35.000</div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="min-w-[280px] rounded-2xl p-6 bg-white shadow border-t-4 border-purple-500 hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">10 GB</h4>
+        <p class="text-sm text-gray-500 mb-4">30 Hari</p>
+        <div class="text-xl font-bold text-primary">Rp45.000</div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="min-w-[280px] rounded-2xl p-6 bg-white shadow border-t-4 border-pink-500 hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">15 GB</h4>
+        <p class="text-sm text-gray-500 mb-4">30 Hari</p>
+        <div class="text-xl font-bold text-primary">Rp60.000</div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="min-w-[280px] rounded-2xl p-6 bg-white shadow border-t-4 border-orange-500 hover:-translate-y-1 transition">
+        <h4 class="text-lg font-semibold">Unlimited*</h4>
+        <p class="text-sm text-gray-500 mb-4">S&K Berlaku</p>
+        <div class="text-xl font-bold text-primary">Mulai Rp75.000</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROMO ===== -->
+<section id="promo" class="py-24 bg-white">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <span class="inline-block mb-3 px-4 py-1 bg-red-100 text-red-600 rounded-full text-sm">
+      Promo Terbatas
+    </span>
+    <h3 class="text-3xl font-bold text-primary mb-12">Promo Spesial Mingguan</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="rounded-2xl p-8 bg-gradient-to-br from-red-50 to-white shadow">
+        <h4 class="font-semibold mb-2">Pulsa 20K</h4>
+        <p class="text-sm text-gray-500 mb-4">Harga Promo</p>
+        <div class="text-2xl font-bold text-red-600">Rp19.000</div>
+      </div>
+
+      <div class="rounded-2xl p-8 bg-gradient-to-br from-green-50 to-white shadow">
+        <h4 class="font-semibold mb-2">Paket Data 5 GB</h4>
+        <p class="text-sm text-gray-500 mb-4">14 Hari</p>
+        <div class="text-2xl font-bold text-green-600">Rp22.000</div>
+      </div>
+
+      <div class="rounded-2xl p-8 bg-gradient-to-br from-blue-50 to-white shadow">
+        <h4 class="font-semibold mb-2">Pelanggan Baru</h4>
+        <p class="text-sm text-gray-500 mb-4">Bonus saldo</p>
+        <div class="text-2xl font-bold text-blue-600">Spesial</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="py-24 bg-primary text-white text-center">
+  <h3 class="text-3xl font-bold mb-4">Siap Order?</h3>
+  <p class="mb-8 text-blue-100">Hubungi MamadzSell sekarang juga</p>
+  <a href="https://wa.me/628xxxxxxxxx"
+     class="inline-flex items-center gap-3 bg-accent px-8 py-4 rounded-full font-semibold shadow-lg hover:scale-105 transition">
+   <svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 32 32"
+     fill="currentColor"
+     class="w-5 h-5">
+  <path d="M19.11 17.2c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.18-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.41.12-.55.13-.13.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.93 2.95 4.68 4.13.65.28 1.15.45 1.54.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.27.23-.61.23-1.14.16-1.27-.07-.13-.25-.2-.52-.34z"/>
+  <path d="M16.04 2.67c-7.39 0-13.4 6.01-13.4 13.4 0 2.36.61 4.66 1.78 6.69l-1.9 6.94 7.12-1.87c1.96 1.07 4.17 1.64 6.4 1.64 7.39 0 13.4-6.01 13.4-13.4s-6.01-13.4-13.4-13.4zm0 24.38c-2.02 0-3.99-.54-5.72-1.57l-.41-.24-4.22 1.11 1.13-4.11-.27-.42c-1.06-1.71-1.62-3.69-1.62-5.74 0-5.96 4.85-10.81 10.81-10.81 5.96 0 10.81 4.85 10.81 10.81 0 5.96-4.85 10.81-10.81 10.81z"/>
+</svg>
+
+    WhatsApp Sekarang
+  </a>
+</section>
+
+<footer class="bg-blue-900 text-white text-center py-6 text-sm">
+  © 2026 MamadzSell · All Rights Reserved
+</footer>
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/628xxxxxxxxx"
+   class="fixed bottom-6 right-6 bg-accent text-white p-4 rounded-full shadow-lg hover:scale-110 transition z-50">
+ <svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 32 32"
+     fill="currentColor"
+     class="w-5 h-5">
+  <path d="M19.11 17.2c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.18-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.41.12-.55.13-.13.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.93 2.95 4.68 4.13.65.28 1.15.45 1.54.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.27.23-.61.23-1.14.16-1.27-.07-.13-.25-.2-.52-.34z"/>
+  <path d="M16.04 2.67c-7.39 0-13.4 6.01-13.4 13.4 0 2.36.61 4.66 1.78 6.69l-1.9 6.94 7.12-1.87c1.96 1.07 4.17 1.64 6.4 1.64 7.39 0 13.4-6.01 13.4-13.4s-6.01-13.4-13.4-13.4zm0 24.38c-2.02 0-3.99-.54-5.72-1.57l-.41-.24-4.22 1.11 1.13-4.11-.27-.42c-1.06-1.71-1.62-3.69-1.62-5.74 0-5.96 4.85-10.81 10.81-10.81 5.96 0 10.81 4.85 10.81 10.81 0 5.96-4.85 10.81-10.81 10.81z"/>
+</svg>
+
+</a>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href'))
+        .scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
+</body>
+</html>
